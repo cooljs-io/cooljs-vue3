@@ -1,4 +1,4 @@
 import { createApp } from "vue";
-import App from "./App.vue";
+import CoolJsVue3 from "@/CoolJsVue3.vue";
 
-createApp(App).mount("#app");
+createApp(CoolJsVue3).mount("#app");

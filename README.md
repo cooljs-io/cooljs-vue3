@@ -2,6 +2,10 @@
 
 ## Usage
 
+```shell
+npm i @cooljs-io/cooljs-vue3
+```
+
 ```vue
 <template>
   <!-- id is optional, default 'cooljs-main-container' -->
@@ -32,9 +36,11 @@ npm run build
 npm run lint
 ```
 
-### Init package and publish
+### Init package and publish to npmjs.com
 ```bash
 npm init --scope=@cooljs-io
+
+npm login
 npm publish --access public
 ```
 

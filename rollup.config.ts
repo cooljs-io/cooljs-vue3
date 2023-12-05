@@ -23,6 +23,12 @@ export default defineConfig([
         exports: "named",
         entryFileNames: (chunk) => `[name].cjs`,
       },
+      {
+        dir: "dist",
+        format: "iife",
+        name: "CoolJsVue3",
+        entryFileNames: (chunk) => `[name].umd.js`,
+      },
     ],
 
     plugins: [
